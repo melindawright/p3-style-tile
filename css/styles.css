@@ -3,19 +3,32 @@ h1{
 	font-family: 'Open Sans', sans-serif;
 }
 h2{
-	color:hotpink;
+	color:#57C1AD;
 }
 h2, h3, p {
 	margin: 0;
 }
 
 .color-1{
-	background: #f0f;
+	background: #57C1AD;
 }
 
 .color-2{
-	background: green;
+	background: #F5EF82;
 }
+.color-3{
+	background: #8C855D;
+}
+.color-4{
+	background: #33E5CF;
+}
+.color-5{
+	background: #ADAA8C;
+}
+
+
+
+
 /* Layout for Style Tile*/
 section {
 	margin: 20px 0;
@@ -24,6 +37,8 @@ section {
 .color-1,
 .color-2,
 .color-3,
+.color-4,
+.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
