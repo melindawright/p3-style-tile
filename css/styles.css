@@ -1,31 +1,54 @@
+body{
+	background: #F0F2F2;
+}
+section img{
+	max-width: 200px;
+
+	
+}
+img{
+	
+	border-bottom: solid black 1px;
+}
+
 /* Set Your Own Margin & Padding */
 h1{
 	font-family: 'Open Sans', sans-serif;
 }
 h2{
+	font-family: 'Lusitana', serif;
 	color:#57C1AD;
+
+}
+h3{
+	font-family:  'Open Sans', italic;
+	color: #ADAA8C;
 }
 h2, h3, p {
 	margin: 0;
 }
 
 .color-1{
-	background: #57C1AD;
+	background:#8C855D;
 }
 
 .color-2{
-	background: #F5EF82;
+	background: #ADAA8C;
 }
 .color-3{
-	background: #8C855D;
+	background:  #57C1AD;
 }
 .color-4{
 	background: #33E5CF;
 }
 .color-5{
-	background: #ADAA8C;
+	background: #F5EF82;
+	margin margin-right: 10px;
 }
 
+em{
+	margin-left: 30px;
+}
 
 
 
@@ -42,11 +65,15 @@ section {
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 1px solid #000;
+	
 	float: left;
-	margin: 0 10px;
-	height: 50px;
-	width: 50px;
+	margin: 0 3px;
+	width: 100px;
+	height: 130px;
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+
 }
 
 
